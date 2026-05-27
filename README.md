@@ -1,4 +1,4 @@
-# LOAN_PATTERNS_ANALYSIS_USING_PYTHON
+# Loan_Data_Exploratory_Analysi-Python
 This is an in-depth analysis of a company's loan applicants covering data cleaning, handling missing values, exploratory data analysis and visualisations. The aim was to investigate how an applicant's demographics, financial position and household structure influence loan approval outcomes, and identify areas where the company can optimize its credit risk assessment.
 
 ## Business Problem
