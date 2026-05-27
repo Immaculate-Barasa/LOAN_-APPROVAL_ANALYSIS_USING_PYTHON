@@ -1,4 +1,4 @@
-# Loan_Data_Exploratory_Analysi-Python
+# Loan_Data_Exploratory_Analysis-Python
 This is an in-depth analysis of a company's loan applicants covering data cleaning, handling missing values, exploratory data analysis and visualisations. The aim was to investigate how an applicant's demographics, financial position and household structure influence loan approval outcomes, and identify areas where the company can optimize its credit risk assessment.
 
 ## Business Problem
@@ -21,7 +21,7 @@ The key information from the columns includes:
 - Loan status.
 
 ## Business Questions
-To guide the investigation, the analysis focused on answering the following core business questions:
+To guide the investigation, the analysis focused on answering the following questions:
 
 1. What is the typical loan size requested by the client base, and how is the demand distributed?
 
@@ -36,17 +36,17 @@ To guide the investigation, the analysis focused on answering the following core
 
 2. Graduates submit the vast majority of applications and secure a much higher volume of approvals than non-graduates.
    
-3. The majority of our applicants have zero dependents. However, for those with more dependents the company does not heavily penalize them; their approval rate remains consistently higher than their rejection rate.
+3. The majority of the applicants have zero dependents. However, for those with more dependents the company does not heavily penalize them; their approval rate remains consistently higher than their rejection rate.
 
-4. The Credit_History column contains the highest number of missing values in the entire dataset. Missing this information creates a blind spot that makes it difficult to assess risk accurately.
+4. The Credit_History column contains the highest number of missing values. This creates a blind spot that makes it difficult to assess risk accurately.
 
 
 ## Recommendations
 1. Streamline small loan approvals since the highest customer demand is for loans between KES 100,000 and KES 150,000. 
 
-2. Introduce Alternative Credit Scoring such as mobile money transaction histories  to help viable non-graduates.
+2. Introduce alternative credit scoring such as mobile money transaction histories  to help viable non-graduates.
 
-3. Tighten Data Collection Controls: Update the digital loan application platform to make the credit check field mandatory. Liaise with  Credit Reference Bureau (CRB) to pull history instantly.
+3. Tighten data collection controls by updating the digital loan application form to make the credit check field mandatory. Liaise with  Credit Reference Bureau (CRB) to pull history instantly.
 
 ## Tools
 Python
